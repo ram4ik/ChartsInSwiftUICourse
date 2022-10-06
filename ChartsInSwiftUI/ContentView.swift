@@ -9,11 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationStack {
-            ChartsIntro()
-                .navigationTitle("SwiftUI Charts")
+        NavigationView {
+            List {
+                NavigationLink("Simple Vertical") { ChartsIntro() }
+                NavigationLink("Simple Horizontal") { SimpleHorizontal() }
+            }
+            .navigationTitle("SwiftUI Charts")
         }
-        
     }
 }
 

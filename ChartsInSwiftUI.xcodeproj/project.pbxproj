@@ -12,6 +12,7 @@
 		5ED1E80C28EF120A0016A369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED1E80B28EF120A0016A369 /* Assets.xcassets */; };
 		5ED1E80F28EF120A0016A369 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED1E80E28EF120A0016A369 /* Preview Assets.xcassets */; };
 		5ED1E81728EF12520016A369 /* ChartsIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED1E81628EF12510016A369 /* ChartsIntro.swift */; };
+		5ED1E81928EF16D80016A369 /* SimpleHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED1E81828EF16D80016A369 /* SimpleHorizontal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		5ED1E80B28EF120A0016A369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ED1E80E28EF120A0016A369 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5ED1E81628EF12510016A369 /* ChartsIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsIntro.swift; sourceTree = "<group>"; };
+		5ED1E81828EF16D80016A369 /* SimpleHorizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHorizontal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				5ED1E81628EF12510016A369 /* ChartsIntro.swift */,
+				5ED1E81828EF16D80016A369 /* SimpleHorizontal.swift */,
 			);
 			path = GettingStarted;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ED1E81728EF12520016A369 /* ChartsIntro.swift in Sources */,
+				5ED1E81928EF16D80016A369 /* SimpleHorizontal.swift in Sources */,
 				5ED1E80A28EF12090016A369 /* ContentView.swift in Sources */,
 				5ED1E80828EF12090016A369 /* ChartsInSwiftUIApp.swift in Sources */,
 			);
