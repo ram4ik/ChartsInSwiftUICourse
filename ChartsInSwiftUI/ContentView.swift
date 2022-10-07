@@ -14,6 +14,8 @@ struct ContentView: View {
                 NavigationLink("Simple Vertical") { ChartsIntro() }
                 NavigationLink("Simple Horizontal") { SimpleHorizontal() }
                 NavigationLink("Dynamic Charts") { DynamicChartExample() }
+                NavigationLink("Colored Dynamic Charts") { ColoredDynamicCharts() }
+                NavigationLink("Chart Foreground Style") { ChartForegroundStyle() }
             }
             .navigationTitle("SwiftUI Charts")
         }

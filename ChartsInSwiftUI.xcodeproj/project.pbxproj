@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E04113128F038A800F66BF0 /* ColoredDynamicCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E04113028F038A800F66BF0 /* ColoredDynamicCharts.swift */; };
+		5E04113328F039A500F66BF0 /* ChartForegroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E04113228F039A500F66BF0 /* ChartForegroundStyle.swift */; };
 		5E7DF86528EFEB6600044425 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7DF86428EFEB6600044425 /* Workout.swift */; };
 		5E7DF86728EFEC2E00044425 /* DynamicChartExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7DF86628EFEC2E00044425 /* DynamicChartExample.swift */; };
 		5ED1E80828EF12090016A369 /* ChartsInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED1E80728EF12090016A369 /* ChartsInSwiftUIApp.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E04113028F038A800F66BF0 /* ColoredDynamicCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredDynamicCharts.swift; sourceTree = "<group>"; };
+		5E04113228F039A500F66BF0 /* ChartForegroundStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartForegroundStyle.swift; sourceTree = "<group>"; };
 		5E7DF86428EFEB6600044425 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		5E7DF86628EFEC2E00044425 /* DynamicChartExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicChartExample.swift; sourceTree = "<group>"; };
 		5ED1E80428EF12090016A369 /* ChartsInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartsInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +87,8 @@
 				5ED1E81628EF12510016A369 /* ChartsIntro.swift */,
 				5ED1E81828EF16D80016A369 /* SimpleHorizontal.swift */,
 				5E7DF86628EFEC2E00044425 /* DynamicChartExample.swift */,
+				5E04113028F038A800F66BF0 /* ColoredDynamicCharts.swift */,
+				5E04113228F039A500F66BF0 /* ChartForegroundStyle.swift */,
 			);
 			path = GettingStarted;
 			sourceTree = "<group>";
@@ -160,8 +166,10 @@
 				5ED1E81728EF12520016A369 /* ChartsIntro.swift in Sources */,
 				5ED1E81928EF16D80016A369 /* SimpleHorizontal.swift in Sources */,
 				5ED1E80A28EF12090016A369 /* ContentView.swift in Sources */,
+				5E04113328F039A500F66BF0 /* ChartForegroundStyle.swift in Sources */,
 				5E7DF86728EFEC2E00044425 /* DynamicChartExample.swift in Sources */,
 				5E7DF86528EFEB6600044425 /* Workout.swift in Sources */,
+				5E04113128F038A800F66BF0 /* ColoredDynamicCharts.swift in Sources */,
 				5ED1E80828EF12090016A369 /* ChartsInSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

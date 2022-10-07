@@ -22,6 +22,5 @@ extension Workout {
         .init(day: "Fri", minutes: 30),
         .init(day: "Sat", minutes: 19),
         .init(day: "Sun", minutes: 28),
-        .init(day: "Mon", minutes: 42),
     ]
 }
