@@ -13,6 +13,7 @@ struct ContentView: View {
             List {
                 NavigationLink("Simple Vertical") { ChartsIntro() }
                 NavigationLink("Simple Horizontal") { SimpleHorizontal() }
+                NavigationLink("Dynamic Charts") { DynamicChartExample() }
             }
             .navigationTitle("SwiftUI Charts")
         }
