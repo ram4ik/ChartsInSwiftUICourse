@@ -16,6 +16,7 @@ struct ContentView: View {
                 NavigationLink("Dynamic Charts") { DynamicChartExample() }
                 NavigationLink("Colored Dynamic Charts") { ColoredDynamicCharts() }
                 NavigationLink("Chart Foreground Style") { ChartForegroundStyle() }
+                NavigationLink("Annotation Example") { AnnotationExample() }
             }
             .navigationTitle("SwiftUI Charts")
         }
