@@ -16,6 +16,7 @@
 		5E04113E28F1410400F66BF0 /* SomeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E04113D28F1410400F66BF0 /* SomeDataModel.swift */; };
 		5E04114128F161D300F66BF0 /* MultiSeriesBarChartInSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E04114028F161D300F66BF0 /* MultiSeriesBarChartInSwiftUI.swift */; };
 		5E04114628F297B500F66BF0 /* LineChartInSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E04114528F297B500F66BF0 /* LineChartInSwiftUI.swift */; };
+		5E04114828F29A7C00F66BF0 /* StylingLineChartInSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E04114728F29A7C00F66BF0 /* StylingLineChartInSwiftUI.swift */; };
 		5E7DF86528EFEB6600044425 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7DF86428EFEB6600044425 /* Workout.swift */; };
 		5E7DF86728EFEC2E00044425 /* DynamicChartExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7DF86628EFEC2E00044425 /* DynamicChartExample.swift */; };
 		5ED1E80828EF12090016A369 /* ChartsInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED1E80728EF12090016A369 /* ChartsInSwiftUIApp.swift */; };
@@ -36,6 +37,7 @@
 		5E04113D28F1410400F66BF0 /* SomeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeDataModel.swift; sourceTree = "<group>"; };
 		5E04114028F161D300F66BF0 /* MultiSeriesBarChartInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSeriesBarChartInSwiftUI.swift; sourceTree = "<group>"; };
 		5E04114528F297B500F66BF0 /* LineChartInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartInSwiftUI.swift; sourceTree = "<group>"; };
+		5E04114728F29A7C00F66BF0 /* StylingLineChartInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylingLineChartInSwiftUI.swift; sourceTree = "<group>"; };
 		5E7DF86428EFEB6600044425 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		5E7DF86628EFEC2E00044425 /* DynamicChartExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicChartExample.swift; sourceTree = "<group>"; };
 		5ED1E80428EF12090016A369 /* ChartsInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartsInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				5E04114528F297B500F66BF0 /* LineChartInSwiftUI.swift */,
+				5E04114728F29A7C00F66BF0 /* StylingLineChartInSwiftUI.swift */,
 			);
 			path = LineChartInSwiftUI;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E04114828F29A7C00F66BF0 /* StylingLineChartInSwiftUI.swift in Sources */,
 				5E04113E28F1410400F66BF0 /* SomeDataModel.swift in Sources */,
 				5ED1E81728EF12520016A369 /* ChartsIntro.swift in Sources */,
 				5E04113528F04BA400F66BF0 /* AnnotationExample.swift in Sources */,

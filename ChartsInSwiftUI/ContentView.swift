@@ -20,6 +20,7 @@ struct ContentView: View {
                 NavigationLink("Stacked Bar Chart") { StackedBarChartInSwiftUI() }
                 NavigationLink("Multi Series Bar Chart") { MultiSeriesBarChartInSwiftUI() }
                 NavigationLink("Line Chart") { LineChartInSwiftUI() }
+                NavigationLink("Styling Line Chart") { StylingLineChartInSwiftUI() }
             }
             .navigationTitle("SwiftUI Charts")
         }
