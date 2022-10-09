@@ -19,6 +19,7 @@ struct ContentView: View {
                 NavigationLink("Annotation Example") { AnnotationExample() }
                 NavigationLink("Stacked Bar Chart") { StackedBarChartInSwiftUI() }
                 NavigationLink("Multi Series Bar Chart") { MultiSeriesBarChartInSwiftUI() }
+                NavigationLink("Line Chart") { LineChartInSwiftUI() }
             }
             .navigationTitle("SwiftUI Charts")
         }
