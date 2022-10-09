@@ -21,8 +21,41 @@ struct LineChartInterpolationInSwiftUI: View {
             .foregroundStyle(Gradient(colors: [.yellow, .orange, .pink]))
             .interpolationMethod(.cardinal)
         }
-        .frame(height: 400)
-        .padding()
+        .frame(height: 150)
+        .padding(.horizontal)
+        
+        Chart {
+            ForEach(walkWorkouts) { workout in
+                LineMark(x: .value("Day", workout.day), y: .value("Workout(minutes)", workout.minutes))
+                    .lineStyle(.init(lineWidth: 10, lineCap: .round, lineJoin: .round))
+            }
+            .foregroundStyle(Gradient(colors: [.yellow, .orange, .pink]))
+            .interpolationMethod(.catmullRom)
+        }
+        .frame(height: 150)
+        .padding(.horizontal)
+        
+        Chart {
+            ForEach(walkWorkouts) { workout in
+                LineMark(x: .value("Day", workout.day), y: .value("Workout(minutes)", workout.minutes))
+                    .lineStyle(.init(lineWidth: 10, lineCap: .round, lineJoin: .round))
+            }
+            .foregroundStyle(Gradient(colors: [.yellow, .orange, .pink]))
+            .interpolationMethod(.monotone)
+        }
+        .frame(height: 150)
+        .padding(.horizontal)
+        
+        Chart {
+            ForEach(walkWorkouts) { workout in
+                LineMark(x: .value("Day", workout.day), y: .value("Workout(minutes)", workout.minutes))
+                    .lineStyle(.init(lineWidth: 10, lineCap: .round, lineJoin: .round))
+            }
+            .foregroundStyle(Gradient(colors: [.yellow, .orange, .pink]))
+            .interpolationMethod(.stepCenter)
+        }
+        .frame(height: 150)
+        .padding(.horizontal)
     }
 }
 
