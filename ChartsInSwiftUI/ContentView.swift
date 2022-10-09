@@ -25,6 +25,7 @@ struct ContentView: View {
                 }
                 Group {
                     NavigationLink("Line Chart Interpolation") { LineChartInterpolationInSwiftUI() }
+                    NavigationLink("Line Chart Annotation") { LineChartAnnotationInSwiftUI() }
                 }
             }
             .navigationTitle("SwiftUI Charts")
