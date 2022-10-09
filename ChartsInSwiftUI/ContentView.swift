@@ -11,16 +11,21 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink("Simple Vertical") { ChartsIntro() }
-                NavigationLink("Simple Horizontal") { SimpleHorizontal() }
-                NavigationLink("Dynamic Charts") { DynamicChartExample() }
-                NavigationLink("Colored Dynamic Charts") { ColoredDynamicCharts() }
-                NavigationLink("Chart Foreground Style") { ChartForegroundStyle() }
-                NavigationLink("Annotation Example") { AnnotationExample() }
-                NavigationLink("Stacked Bar Chart") { StackedBarChartInSwiftUI() }
-                NavigationLink("Multi Series Bar Chart") { MultiSeriesBarChartInSwiftUI() }
-                NavigationLink("Line Chart") { LineChartInSwiftUI() }
-                NavigationLink("Styling Line Chart") { StylingLineChartInSwiftUI() }
+                Group {
+                    NavigationLink("Simple Vertical") { ChartsIntro() }
+                    NavigationLink("Simple Horizontal") { SimpleHorizontal() }
+                    NavigationLink("Dynamic Charts") { DynamicChartExample() }
+                    NavigationLink("Colored Dynamic Charts") { ColoredDynamicCharts() }
+                    NavigationLink("Chart Foreground Style") { ChartForegroundStyle() }
+                    NavigationLink("Annotation Example") { AnnotationExample() }
+                    NavigationLink("Stacked Bar Chart") { StackedBarChartInSwiftUI() }
+                    NavigationLink("Multi Series Bar Chart") { MultiSeriesBarChartInSwiftUI() }
+                    NavigationLink("Line Chart") { LineChartInSwiftUI() }
+                    NavigationLink("Styling Line Chart") { StylingLineChartInSwiftUI() }
+                }
+                Group {
+                    NavigationLink("Line Chart Interpolation") { LineChartInterpolationInSwiftUI() }
+                }
             }
             .navigationTitle("SwiftUI Charts")
         }
