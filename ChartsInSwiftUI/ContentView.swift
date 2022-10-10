@@ -28,6 +28,7 @@ struct ContentView: View {
                     NavigationLink("Line Chart Annotation") { LineChartAnnotationInSwiftUI() }
                     NavigationLink("Line Chart Symbol") { LineChartSymbolInSwiftUI() }
                     NavigationLink("Multi Series Line Chart") { MultiSeriesLineChartInSwiftUI() }
+                    NavigationLink("Multi Series Line Chart Styling") { MultiSeriesLineChartStylingInSwiftUI() }
                 }
             }
             .navigationTitle("SwiftUI Charts")

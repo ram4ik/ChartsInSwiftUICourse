@@ -25,7 +25,7 @@ extension Workout {
     ]
     
     static let walkWorkouts: [Workout] = [
-        .init(day: "Mon", minutes: 70),
+        .init(day: "Mon", minutes: 76),
         .init(day: "Tue", minutes: 94),
         .init(day: "Wen", minutes: 62),
         .init(day: "Thu", minutes: 87),
@@ -35,12 +35,12 @@ extension Workout {
     ]
     
     static let runWorkouts: [Workout] = [
-        .init(day: "Mon", minutes: 71),
+        .init(day: "Mon", minutes: 51),
         .init(day: "Tue", minutes: 53),
         .init(day: "Wen", minutes: 69),
         .init(day: "Thu", minutes: 74),
         .init(day: "Fri", minutes: 44),
-        .init(day: "Sat", minutes: 94),
+        .init(day: "Sat", minutes: 84),
         .init(day: "Sun", minutes: 86),
     ]
 }
