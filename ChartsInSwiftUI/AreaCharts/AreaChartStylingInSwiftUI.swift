@@ -1,0 +1,43 @@
+//
+//  AreaChartStylingInSwiftUI.swift
+//  ChartsInSwiftUI
+//
+//  Created by Ramill Ibragimov on 11.10.2022.
+//
+
+import SwiftUI
+import Charts
+
+struct AreaChartStylingInSwiftUI: View {
+    
+    @State private var runData = Workout.runWorkouts
+    
+    var body: some View {
+        Chart(runData) {
+            AreaMark(x: .value("Day", $0.day), y: .value("Minutes", $0.minutes))
+                .interpolationMethod(.stepCenter)
+        }
+        .frame(height: 200)
+        .padding()
+        
+        Chart(runData) {
+            AreaMark(x: .value("Day", $0.day), y: .value("Minutes", $0.minutes))
+                .interpolationMethod(.cardinal)
+        }
+        .frame(height: 200)
+        .padding()
+        
+        Chart(runData) {
+            AreaMark(x: .value("Day", $0.day), y: .value("Minutes", $0.minutes))
+                .interpolationMethod(.catmullRom)
+        }
+        .frame(height: 200)
+        .padding()
+    }
+}
+
+struct AreaChartStylingInSwiftUI_Previews: PreviewProvider {
+    static var previews: some View {
+        AreaChartStylingInSwiftUI()
+    }
+}
