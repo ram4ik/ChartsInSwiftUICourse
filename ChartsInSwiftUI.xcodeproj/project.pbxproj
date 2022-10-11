@@ -22,6 +22,7 @@
 		5E04114E28F2A25C00F66BF0 /* LineChartSymbolInSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E04114D28F2A25C00F66BF0 /* LineChartSymbolInSwiftUI.swift */; };
 		5E04115128F3EC2E00F66BF0 /* MultiSeriesLineChartInSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E04115028F3EC2E00F66BF0 /* MultiSeriesLineChartInSwiftUI.swift */; };
 		5E04115328F3EE5500F66BF0 /* MultiSeriesLineChartStylingInSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E04115228F3EE5500F66BF0 /* MultiSeriesLineChartStylingInSwiftUI.swift */; };
+		5E04115628F539F700F66BF0 /* AreaChartInSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E04115528F539F700F66BF0 /* AreaChartInSwiftUI.swift */; };
 		5E7DF86528EFEB6600044425 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7DF86428EFEB6600044425 /* Workout.swift */; };
 		5E7DF86728EFEC2E00044425 /* DynamicChartExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7DF86628EFEC2E00044425 /* DynamicChartExample.swift */; };
 		5ED1E80828EF12090016A369 /* ChartsInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED1E80728EF12090016A369 /* ChartsInSwiftUIApp.swift */; };
@@ -48,6 +49,7 @@
 		5E04114D28F2A25C00F66BF0 /* LineChartSymbolInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartSymbolInSwiftUI.swift; sourceTree = "<group>"; };
 		5E04115028F3EC2E00F66BF0 /* MultiSeriesLineChartInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSeriesLineChartInSwiftUI.swift; sourceTree = "<group>"; };
 		5E04115228F3EE5500F66BF0 /* MultiSeriesLineChartStylingInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSeriesLineChartStylingInSwiftUI.swift; sourceTree = "<group>"; };
+		5E04115528F539F700F66BF0 /* AreaChartInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaChartInSwiftUI.swift; sourceTree = "<group>"; };
 		5E7DF86428EFEB6600044425 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		5E7DF86628EFEC2E00044425 /* DynamicChartExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicChartExample.swift; sourceTree = "<group>"; };
 		5ED1E80428EF12090016A369 /* ChartsInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartsInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +112,14 @@
 			path = MultiSeriesLineChart;
 			sourceTree = "<group>";
 		};
+		5E04115428F539D100F66BF0 /* AreaCharts */ = {
+			isa = PBXGroup;
+			children = (
+				5E04115528F539F700F66BF0 /* AreaChartInSwiftUI.swift */,
+			);
+			path = AreaCharts;
+			sourceTree = "<group>";
+		};
 		5ED1E7FB28EF12090016A369 = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +139,7 @@
 		5ED1E80628EF12090016A369 /* ChartsInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5E04115428F539D100F66BF0 /* AreaCharts */,
 				5E04114F28F3EBFF00F66BF0 /* MultiSeriesLineChart */,
 				5E04114428F2979700F66BF0 /* LineChartInSwiftUI */,
 				5E04113F28F161B500F66BF0 /* MultiSeries */,
@@ -236,6 +247,7 @@
 			files = (
 				5E04114828F29A7C00F66BF0 /* StylingLineChartInSwiftUI.swift in Sources */,
 				5E04113E28F1410400F66BF0 /* SomeDataModel.swift in Sources */,
+				5E04115628F539F700F66BF0 /* AreaChartInSwiftUI.swift in Sources */,
 				5ED1E81728EF12520016A369 /* ChartsIntro.swift in Sources */,
 				5E04113528F04BA400F66BF0 /* AnnotationExample.swift in Sources */,
 				5E04115128F3EC2E00F66BF0 /* MultiSeriesLineChartInSwiftUI.swift in Sources */,
