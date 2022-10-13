@@ -40,6 +40,7 @@
 		5ED51E4528F85DA500D427B3 /* RangeAreaMarkChartInSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED51E4428F85DA500D427B3 /* RangeAreaMarkChartInSwiftUI.swift */; };
 		5ED51E4728F85DB600D427B3 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED51E4628F85DB600D427B3 /* Weather.swift */; };
 		5ED51E4928F862E900D427B3 /* RangeAreaChartWithBarkMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED51E4828F862E900D427B3 /* RangeAreaChartWithBarkMark.swift */; };
+		5ED51E4C28F866CA00D427B3 /* LegendCustomizationInSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED51E4B28F866CA00D427B3 /* LegendCustomizationInSwiftUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		5ED51E4428F85DA500D427B3 /* RangeAreaMarkChartInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeAreaMarkChartInSwiftUI.swift; sourceTree = "<group>"; };
 		5ED51E4628F85DB600D427B3 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		5ED51E4828F862E900D427B3 /* RangeAreaChartWithBarkMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeAreaChartWithBarkMark.swift; sourceTree = "<group>"; };
+		5ED51E4B28F866CA00D427B3 /* LegendCustomizationInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendCustomizationInSwiftUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 		5ED1E80628EF12090016A369 /* ChartsInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5ED51E4A28F866AE00D427B3 /* LegendCustomization */,
 				5ED51E4328F85D7D00D427B3 /* RangeAreaMarkChart */,
 				5ED51E4028F81FD300D427B3 /* CombineChart */,
 				5E04116228F6ACFE00F66BF0 /* CandleStickChart */,
@@ -224,6 +227,14 @@
 				5ED51E4828F862E900D427B3 /* RangeAreaChartWithBarkMark.swift */,
 			);
 			path = RangeAreaMarkChart;
+			sourceTree = "<group>";
+		};
+		5ED51E4A28F866AE00D427B3 /* LegendCustomization */ = {
+			isa = PBXGroup;
+			children = (
+				5ED51E4B28F866CA00D427B3 /* LegendCustomizationInSwiftUI.swift */,
+			);
+			path = LegendCustomization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +310,7 @@
 				5E04114828F29A7C00F66BF0 /* StylingLineChartInSwiftUI.swift in Sources */,
 				5E04113E28F1410400F66BF0 /* SomeDataModel.swift in Sources */,
 				5E04115628F539F700F66BF0 /* AreaChartInSwiftUI.swift in Sources */,
+				5ED51E4C28F866CA00D427B3 /* LegendCustomizationInSwiftUI.swift in Sources */,
 				5ED1E81728EF12520016A369 /* ChartsIntro.swift in Sources */,
 				5ED51E4728F85DB600D427B3 /* Weather.swift in Sources */,
 				5E04113528F04BA400F66BF0 /* AnnotationExample.swift in Sources */,
