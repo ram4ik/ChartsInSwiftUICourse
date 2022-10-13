@@ -28,7 +28,17 @@ struct CombineChartAreaAndLineMark: View {
                         Text(walk.minutes.formatted())
                             .font(.caption2)
                     }
+                            
             }
+            
+            RuleMark(y: .value("Target", 45))
+                .lineStyle(StrokeStyle(dash: [2, 3]))
+                .foregroundStyle(.orange.gradient)
+                .annotation(position: .bottom) {
+                    Text("Daily Target")
+                        .font(.caption2)
+                        .backgroundStyle(.white)
+                }
         }
         .frame(height: 200)
         .padding()
