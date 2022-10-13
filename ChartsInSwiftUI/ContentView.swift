@@ -39,6 +39,7 @@ struct ContentView: View {
                     NavigationLink("Range Area Mark Chart") { RangeAreaMarkChartInSwiftUI() }
                     NavigationLink("Range Area with BarMark Chart") { RangeAreaChartWithBarkMark() }
                     NavigationLink("Legend Customization") { LegendCustomizationInSwiftUI() }
+                    NavigationLink("Chart Plot Customization") { ChartPlotAreaCustomization() }
                 }
             }
             .navigationTitle("SwiftUI Charts")

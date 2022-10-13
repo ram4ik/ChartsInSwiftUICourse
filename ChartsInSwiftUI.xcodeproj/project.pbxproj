@@ -41,6 +41,7 @@
 		5ED51E4728F85DB600D427B3 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED51E4628F85DB600D427B3 /* Weather.swift */; };
 		5ED51E4928F862E900D427B3 /* RangeAreaChartWithBarkMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED51E4828F862E900D427B3 /* RangeAreaChartWithBarkMark.swift */; };
 		5ED51E4C28F866CA00D427B3 /* LegendCustomizationInSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED51E4B28F866CA00D427B3 /* LegendCustomizationInSwiftUI.swift */; };
+		5ED51E4E28F8698A00D427B3 /* ChartPlotAreaCustomization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED51E4D28F8698A00D427B3 /* ChartPlotAreaCustomization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		5ED51E4628F85DB600D427B3 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		5ED51E4828F862E900D427B3 /* RangeAreaChartWithBarkMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeAreaChartWithBarkMark.swift; sourceTree = "<group>"; };
 		5ED51E4B28F866CA00D427B3 /* LegendCustomizationInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendCustomizationInSwiftUI.swift; sourceTree = "<group>"; };
+		5ED51E4D28F8698A00D427B3 /* ChartPlotAreaCustomization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartPlotAreaCustomization.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				5ED51E4B28F866CA00D427B3 /* LegendCustomizationInSwiftUI.swift */,
+				5ED51E4D28F8698A00D427B3 /* ChartPlotAreaCustomization.swift */,
 			);
 			path = LegendCustomization;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				5E04115128F3EC2E00F66BF0 /* MultiSeriesLineChartInSwiftUI.swift in Sources */,
 				5E04115E28F6AAA900F66BF0 /* CandleStickChartUsingRectangleMark.swift in Sources */,
 				5E04114A28F29DA600F66BF0 /* LineChartInterpolationInSwiftUI.swift in Sources */,
+				5ED51E4E28F8698A00D427B3 /* ChartPlotAreaCustomization.swift in Sources */,
 				5E04116028F6AB0000F66BF0 /* Stock.swift in Sources */,
 				5E04115C28F53C4600F66BF0 /* Food.swift in Sources */,
 				5E04113C28F1409E00F66BF0 /* SomeDataSource.swift in Sources */,
