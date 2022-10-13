@@ -36,6 +36,7 @@
 		5ED1E80F28EF120A0016A369 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED1E80E28EF120A0016A369 /* Preview Assets.xcassets */; };
 		5ED1E81728EF12520016A369 /* ChartsIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED1E81628EF12510016A369 /* ChartsIntro.swift */; };
 		5ED1E81928EF16D80016A369 /* SimpleHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED1E81828EF16D80016A369 /* SimpleHorizontal.swift */; };
+		5ED51E4228F81FF800D427B3 /* CombineChartAreaAndLineMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED51E4128F81FF800D427B3 /* CombineChartAreaAndLineMark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		5ED1E80E28EF120A0016A369 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5ED1E81628EF12510016A369 /* ChartsIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsIntro.swift; sourceTree = "<group>"; };
 		5ED1E81828EF16D80016A369 /* SimpleHorizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHorizontal.swift; sourceTree = "<group>"; };
+		5ED51E4128F81FF800D427B3 /* CombineChartAreaAndLineMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineChartAreaAndLineMark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 		5ED1E80628EF12090016A369 /* ChartsInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5ED51E4028F81FD300D427B3 /* CombineChart */,
 				5E04116228F6ACFE00F66BF0 /* CandleStickChart */,
 				5E04115428F539D100F66BF0 /* AreaCharts */,
 				5E04114F28F3EBFF00F66BF0 /* MultiSeriesLineChart */,
@@ -196,6 +199,14 @@
 				5E04113428F04BA400F66BF0 /* AnnotationExample.swift */,
 			);
 			path = GettingStarted;
+			sourceTree = "<group>";
+		};
+		5ED51E4028F81FD300D427B3 /* CombineChart */ = {
+			isa = PBXGroup;
+			children = (
+				5ED51E4128F81FF800D427B3 /* CombineChartAreaAndLineMark.swift */,
+			);
+			path = CombineChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +305,7 @@
 				5E04113128F038A800F66BF0 /* ColoredDynamicCharts.swift in Sources */,
 				5E04114C28F2A08A00F66BF0 /* LineChartAnnotationInSwiftUI.swift in Sources */,
 				5ED1E80828EF12090016A369 /* ChartsInSwiftUIApp.swift in Sources */,
+				5ED51E4228F81FF800D427B3 /* CombineChartAreaAndLineMark.swift in Sources */,
 				5E04114E28F2A25C00F66BF0 /* LineChartSymbolInSwiftUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
