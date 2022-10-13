@@ -28,7 +28,18 @@ struct LegendCustomizationInSwiftUI: View {
         }
         .frame(height: 400)
         //.chartLegend(.hidden)
-        .chartLegend(position: .trailing, alignment: .center)
+        .chartLegend(position: .trailing, alignment: .center) {
+            VStack {
+                VStack {
+                    Text("🚶‍♂️")
+                    Color.blue.frame(width: 20, height: 3)
+                }
+                VStack {
+                    Text("🏃‍♂️")
+                    Color.green.frame(width: 20, height: 3)
+                }
+            }
+        }
         .padding()
     }
 }
