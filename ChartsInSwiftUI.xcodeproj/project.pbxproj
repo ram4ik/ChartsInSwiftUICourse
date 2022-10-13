@@ -39,6 +39,7 @@
 		5ED51E4228F81FF800D427B3 /* CombineChartAreaAndLineMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED51E4128F81FF800D427B3 /* CombineChartAreaAndLineMark.swift */; };
 		5ED51E4528F85DA500D427B3 /* RangeAreaMarkChartInSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED51E4428F85DA500D427B3 /* RangeAreaMarkChartInSwiftUI.swift */; };
 		5ED51E4728F85DB600D427B3 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED51E4628F85DB600D427B3 /* Weather.swift */; };
+		5ED51E4928F862E900D427B3 /* RangeAreaChartWithBarkMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED51E4828F862E900D427B3 /* RangeAreaChartWithBarkMark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		5ED51E4128F81FF800D427B3 /* CombineChartAreaAndLineMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineChartAreaAndLineMark.swift; sourceTree = "<group>"; };
 		5ED51E4428F85DA500D427B3 /* RangeAreaMarkChartInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeAreaMarkChartInSwiftUI.swift; sourceTree = "<group>"; };
 		5ED51E4628F85DB600D427B3 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		5ED51E4828F862E900D427B3 /* RangeAreaChartWithBarkMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeAreaChartWithBarkMark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 			children = (
 				5ED51E4428F85DA500D427B3 /* RangeAreaMarkChartInSwiftUI.swift */,
 				5ED51E4628F85DB600D427B3 /* Weather.swift */,
+				5ED51E4828F862E900D427B3 /* RangeAreaChartWithBarkMark.swift */,
 			);
 			path = RangeAreaMarkChart;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				5E04114128F161D300F66BF0 /* MultiSeriesBarChartInSwiftUI.swift in Sources */,
 				5E04113328F039A500F66BF0 /* ChartForegroundStyle.swift in Sources */,
 				5E7DF86728EFEC2E00044425 /* DynamicChartExample.swift in Sources */,
+				5ED51E4928F862E900D427B3 /* RangeAreaChartWithBarkMark.swift in Sources */,
 				5E04113A28F1403400F66BF0 /* SomeData.swift in Sources */,
 				5E04115A28F53C2B00F66BF0 /* MultiSeriesAreaChartInSwiftUI.swift in Sources */,
 				5E7DF86528EFEB6600044425 /* Workout.swift in Sources */,
