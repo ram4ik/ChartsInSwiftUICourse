@@ -22,6 +22,12 @@ struct CombineChartAreaAndLineMark: View {
                 LineMark(x: .value("Day", walk.day), y: .value("Mins", walk.minutes))
                     .interpolationMethod(.catmullRom)
                     .foregroundStyle(Gradient(colors: [.blue]))
+                
+                PointMark(x: .value("Day", walk.day), y: .value("Mins", walk.minutes))
+                    .annotation {
+                        Text(walk.minutes.formatted())
+                            .font(.caption2)
+                    }
             }
         }
         .frame(height: 200)
