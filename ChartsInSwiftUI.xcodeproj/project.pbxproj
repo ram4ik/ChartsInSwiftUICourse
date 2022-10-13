@@ -37,6 +37,8 @@
 		5ED1E81728EF12520016A369 /* ChartsIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED1E81628EF12510016A369 /* ChartsIntro.swift */; };
 		5ED1E81928EF16D80016A369 /* SimpleHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED1E81828EF16D80016A369 /* SimpleHorizontal.swift */; };
 		5ED51E4228F81FF800D427B3 /* CombineChartAreaAndLineMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED51E4128F81FF800D427B3 /* CombineChartAreaAndLineMark.swift */; };
+		5ED51E4528F85DA500D427B3 /* RangeAreaMarkChartInSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED51E4428F85DA500D427B3 /* RangeAreaMarkChartInSwiftUI.swift */; };
+		5ED51E4728F85DB600D427B3 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED51E4628F85DB600D427B3 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +73,8 @@
 		5ED1E81628EF12510016A369 /* ChartsIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsIntro.swift; sourceTree = "<group>"; };
 		5ED1E81828EF16D80016A369 /* SimpleHorizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHorizontal.swift; sourceTree = "<group>"; };
 		5ED51E4128F81FF800D427B3 /* CombineChartAreaAndLineMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineChartAreaAndLineMark.swift; sourceTree = "<group>"; };
+		5ED51E4428F85DA500D427B3 /* RangeAreaMarkChartInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeAreaMarkChartInSwiftUI.swift; sourceTree = "<group>"; };
+		5ED51E4628F85DB600D427B3 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +167,7 @@
 		5ED1E80628EF12090016A369 /* ChartsInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5ED51E4328F85D7D00D427B3 /* RangeAreaMarkChart */,
 				5ED51E4028F81FD300D427B3 /* CombineChart */,
 				5E04116228F6ACFE00F66BF0 /* CandleStickChart */,
 				5E04115428F539D100F66BF0 /* AreaCharts */,
@@ -207,6 +212,15 @@
 				5ED51E4128F81FF800D427B3 /* CombineChartAreaAndLineMark.swift */,
 			);
 			path = CombineChart;
+			sourceTree = "<group>";
+		};
+		5ED51E4328F85D7D00D427B3 /* RangeAreaMarkChart */ = {
+			isa = PBXGroup;
+			children = (
+				5ED51E4428F85DA500D427B3 /* RangeAreaMarkChartInSwiftUI.swift */,
+				5ED51E4628F85DB600D427B3 /* Weather.swift */,
+			);
+			path = RangeAreaMarkChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,7 +297,9 @@
 				5E04113E28F1410400F66BF0 /* SomeDataModel.swift in Sources */,
 				5E04115628F539F700F66BF0 /* AreaChartInSwiftUI.swift in Sources */,
 				5ED1E81728EF12520016A369 /* ChartsIntro.swift in Sources */,
+				5ED51E4728F85DB600D427B3 /* Weather.swift in Sources */,
 				5E04113528F04BA400F66BF0 /* AnnotationExample.swift in Sources */,
+				5ED51E4528F85DA500D427B3 /* RangeAreaMarkChartInSwiftUI.swift in Sources */,
 				5E04115128F3EC2E00F66BF0 /* MultiSeriesLineChartInSwiftUI.swift in Sources */,
 				5E04115E28F6AAA900F66BF0 /* CandleStickChartUsingRectangleMark.swift in Sources */,
 				5E04114A28F29DA600F66BF0 /* LineChartInterpolationInSwiftUI.swift in Sources */,

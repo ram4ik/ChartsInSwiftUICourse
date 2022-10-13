@@ -34,7 +34,9 @@ struct ContentView: View {
                     NavigationLink("Multi Series Area Chart") { MultiSeriesAreaChartInSwiftUI() }
                     NavigationLink("Candle Stick Chart") { CandleStickChartUsingRectangleMark() }
                     NavigationLink("Combine Chart") { CombineChartAreaAndLineMark() }
-
+                }
+                Group {
+                    NavigationLink("Range Area Mark Chart") { RangeAreaMarkChartInSwiftUI() }
                 }
             }
             .navigationTitle("SwiftUI Charts")
